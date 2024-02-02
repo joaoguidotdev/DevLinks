@@ -4,22 +4,22 @@
   box-sizing: border-box;
 }
 :root {
---text-color: white;
---bg-url: url(./assets/bg-mobile.jpg);
---stroke-color:rgba(255, 255, 255, 0.5);
---surface-color: rgba(255, 255, 255, 0.05);
---surface-color-hover: rgba(0, 0, 0, 0.02);
---highlight-color: rgba(255, 255, 255, 0.2);
---switch-bg-url: url(./assets/moon-stars.svg);
+  --text-color: white;
+  --bg-url: url(./assets/bg-mobile.jpg);
+  --stroke-color: rgba(255, 255, 255, 0.5);
+  --surface-color: rgba(255, 255, 255, 0.05);
+  --surface-color-hover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(255, 255, 255, 0.2);
+  --switch-bg-url: url(./assets/moon-stars.svg);
 }
 .light {
---text-color: black;
---bg-url: url(./assets/bg-mobile-light.jpg);
---stroke-color: rgba(0, 0, 0, 0.5);
---surface-color: rgba(0, 0, 0, 0.05);
---surface-colorhover: rgba(0, 0, 0, 0.02);
---highlight-color: rgba(0, 0, 0, 0.1 );
---switch-bg-url: url(./assets/sun.svg);
+  --text-color: black;
+  --bg-url: url(./assets/bg-mobile-light.jpg);
+  --stroke-color: rgba(0, 0, 0, 0.5);
+  --surface-color: rgba(0, 0, 0, 0.05);
+  --surface-colorhover: rgba(0, 0, 0, 0.02);
+  --highlight-color: rgba(0, 0, 0, 0.1);
+  --switch-bg-url: url(./assets/sun.svg);
 }
 body {
   background: var(--bg-url) no-repeat top center/cover;
@@ -54,16 +54,16 @@ body * {
   margin: 4px auto;
 }
 #switch button {
-width: 32px;
-height: 32px;
-background: white var(--switch-bg-url) no-repeat center;
-border:0;
-border-radius: 50%;
-position: absolute;
-top: 50%;
-left: 0;
-z-index: 1;
-transform: translateY(-50%);
+  width: 32px;
+  height: 32px;
+  background: white var(--switch-bg-url) no-repeat center;
+  border: 0;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  transform: translateY(-50%);
 }
 #switch span {
   display: block;
@@ -76,9 +76,8 @@ transform: translateY(-50%);
   border-radius: 9999px;
 }
 .light #switch button {
-  right:0;
+  right: 0;
   left: initial;
-
 }
 
 ul {
@@ -132,12 +131,12 @@ footer {
   text-align: center;
   font-size: 14px;
 }
- @media (min-width: 700px) {
+@media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/bg-desktop.jpg)
+    --bg-url: url(./assets/bg-desktop.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/bg-desktop-light.jpg)
+    --bg-url: url(./assets/bg-desktop-light.jpg);
   }
- }
+}
