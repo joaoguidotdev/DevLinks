@@ -1,4 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("useIGDMediaMangerUploadFailedToast",["fbt","IGDSErrorOutlineIcon.react","react","useIGDSToaster"],(function(a,b,c,d,e,f,g,h){"use strict";var i,j=i||(i=d("react"));b=i;b.useCallback;var k=b.unstable_useMemoCache;function a(){var a=k(2),b=c("useIGDSToaster")(),d;a[0]!==b?(d=function(a,d){b.add({icon:j.jsx(c("IGDSErrorOutlineIcon.react"),{alt:h._("__JHASH__ScQg6mAoJXK__JHASH__")}),message:a,messageSecondary:d,target:"bottom-left"},{duration:2750})},a[0]=b,a[1]=d):d=a[1];return d}g["default"]=a}),98);
-__d("IGDSFace2OutlineIcon.react",["IGDSFace2PanoOutlineIcon.react","react"],(function(a,b,c,d,e,f,g){"use strict";var h,i=(h||(h=d("react"))).unstable_useMemoCache,j=h;function a(a){var b=i(2),d;b[0]!==a?(d=j.jsx(c("IGDSFace2PanoOutlineIcon.react"),babelHelpers["extends"]({},a)),b[0]=a,b[1]=d):d=b[1];return d}b=j.memo(a);g["default"]=b}),98);
