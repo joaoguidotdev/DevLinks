@@ -1,0 +1,5 @@
+;/*FB_PKG_DELIM*/
+
+__d("PolarisStoriesV3ReelPageQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"7469455553085702",metadata:{},name:"PolarisStoriesV3ReelPageQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("PolarisStoriesV3Root.entrypoint",["JSResourceForInteraction","PolarisStoriesV3ReelPageQuery$Parameters"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){var b=a.passthroughProps,d=a.routeParams;a=a.routeProps;b=b!=null?b.initialMediaId:d.initial_media_id;return{queries:{query:{parameters:c("PolarisStoriesV3ReelPageQuery$Parameters"),variables:{media_id:b,reel_ids_arr:[a.user_id]}}}}},root:c("JSResourceForInteraction")("PolarisStoriesV3Root.react").__setRef("PolarisStoriesV3Root.entrypoint")};g["default"]=a}),98);
+__d("PolarisAccountStatusRootQuery_instagramRelayOperation",[],(function(a,b,c,d,e,f){e.exports="6299060110206363"}),null);
